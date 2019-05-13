@@ -35,14 +35,14 @@ class Network extends PersistentResource implements NetworkInterface
     protected static $url_resource = 'networks';
     protected static $json_name = 'network';
 
-    protected $id;
-    protected $adminStateUp;
-    protected $name;
-    protected $shared;
-    protected $status;
-    protected $subnets;
-    protected $tenantId;
-    protected $links;
+    public $id;
+    public $adminStateUp;
+    public $name;
+    public $shared;
+    public $status;
+    public $subnets;
+    public $tenantId;
+    public $links;
 
     protected $aliases = array(
         'admin_state_up' => 'adminStateUp',
@@ -50,10 +50,16 @@ class Network extends PersistentResource implements NetworkInterface
     );
 
     protected $createKeys = array(
-        'adminStateUp',
-        'name',
-        'shared',
-        'tenantId'
+		'id',
+		'adminStateUp',
+		'name',
+		'shared',
+		'status',
+		'subnets',
+		'tenantId',
+		'links',
+
+
     );
 
     protected $updateKeys = array(
