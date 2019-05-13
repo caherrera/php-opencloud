@@ -3,8 +3,9 @@
 > **OpenStack users are recommended to use https://github.com/php-opencloud/openstack, which
 > is the latest supported version of the SDK for OpenStack.**
 
-[![Latest Stable Version](https://poser.pugx.org/rackspace/php-opencloud/v/stable.png)](https://packagist.org/packages/rackspace/php-opencloud) [![Travis CI](https://secure.travis-ci.org/rackspace/php-opencloud.png)](https://travis-ci.org/rackspace/php-opencloud) [![Total Downloads](https://poser.pugx.org/rackspace/php-opencloud/downloads.png)](https://packagist.org/packages/rackspace/php-opencloud)
-
+[![Latest Stable Version](https://poser.pugx.org/caherrera/php-opencloud/v/stable)](https://packagist.org/packages/caherrera/php-opencloud)
+[![Total Downloads](https://poser.pugx.org/caherrera/php-opencloud/downloads)](https://packagist.org/packages/caherrera/php-opencloud)
+[![Latest Unstable Version](https://poser.pugx.org/caherrera/php-opencloud/v/unstable)](https://packagist.org/packages/caherrera/php-opencloud)
 PHP SDK for OpenStack/Rackspace APIs. Our official documentation is now available on http://docs.php-opencloud.com. For SDKs in different languages, see http://developer.rackspace.com.
 
 The PHP SDK should work with most OpenStack-based cloud deployments,
