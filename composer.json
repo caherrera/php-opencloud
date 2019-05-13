@@ -4,6 +4,7 @@
     "keywords": ["rackspace", "openstack", "opencloud", "swift", "nova"],
     "type": "library",
     "license": "Apache-2.0",
+    "version": "v1.16.1",
     "authors": [
         {
             "name": "Carlos Herrera",
