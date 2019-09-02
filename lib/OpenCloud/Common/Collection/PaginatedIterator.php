@@ -48,7 +48,7 @@ class PaginatedIterator extends ResourceIterator implements Iterator
     protected $defaults = array(
         // Collection limits
         'limit.total'           => 10000,
-        'limit.page'            => 100,
+        'limit.page'            => 1000,
 
         // The "links" element key in response
         'key.links'             => 'links',
